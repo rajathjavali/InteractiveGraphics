@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InteractiveGraphics", "InteractiveGraphics\InteractiveGraphics.vcxproj", "{8A836337-CD0E-4ACD-A20B-F77A9AFCDD83}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InteractiveGraphics", "InteractiveGraphics.vcxproj", "{8A836337-CD0E-4ACD-A20B-F77A9AFCDD83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +26,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {52FCFB2A-6175-42CF-9CD4-11B4191FA50E}
+		SolutionGuid = {32E24329-48B7-4BCB-ADA7-8C7BAF84CBB9}
 	EndGlobalSection
 EndGlobal
