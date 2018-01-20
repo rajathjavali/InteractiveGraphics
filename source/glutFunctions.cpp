@@ -6,17 +6,21 @@
 // always call all opengl commands on the same thread
 void display()
 {
+	
 	glClear(GL_COLOR_BUFFER_BIT | GL_ACCUM_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT);
 	/* All rendering code */
-	glColor3f(0.4f, 0.3f, 0.5f);
-
 	/* ------------------ */
 	glutSwapBuffers();
 }
 
 void idle()
 {
-	glColor3f(0.8f, 0.6f, 0.8f);
+	// changing the color of the output window
+	float r = static_cast <float>(rand()) / static_cast <float> (RAND_MAX);
+	float g = static_cast <float>(rand()) / static_cast <float> (RAND_MAX);
+	float b = static_cast <float>(rand()) / static_cast <float> (RAND_MAX);
+	float a = static_cast <float>(rand()) / static_cast <float> (RAND_MAX);
+	glClearColor(r, g, b, a);
 
 	// tells glut that the scene has changed
 	// glut then decides whether to re render or not
