@@ -23,6 +23,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\cyCore.h" />
+    <ClInclude Include="source\cyGL.h" />
+    <ClInclude Include="source\cylPoint.h" />
+    <ClInclude Include="source\cyMatrix.h" />
     <ClInclude Include="source\cyPoint.h" />
     <ClInclude Include="source\cyTriMesh.h" />
     <ClInclude Include="source\glutFunctions.h" />

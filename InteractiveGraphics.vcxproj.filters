@@ -32,5 +32,14 @@
     <ClInclude Include="source\cyTriMesh.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="source\cyGL.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\cylPoint.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\cyMatrix.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
